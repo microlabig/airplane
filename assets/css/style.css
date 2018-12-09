@@ -219,6 +219,28 @@ footer {
 }
 
 .social__listitem {
-    display: inline;
+    display: inline; /* для размещения элементов списка в строку */
+    padding-right: 10px;    
+}
+
+.social__listitem:last-child { 
+    padding-right: 0; 
+} 
+
+.social__img {
+    display: inline-block;    
+    background-color: white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-size: contain;*/
+    overflow: hidden;   
+    width: 20px;
+    height: 20px;   
+    object-fit: contain;   
+}
+
+.social__img--word {    
+    visibility: hidden;
 }
 
