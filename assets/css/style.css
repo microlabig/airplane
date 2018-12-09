@@ -60,6 +60,20 @@ p {
     margin: 0 auto;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 49px;
+    margin:0 auto;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin:0 auto;
+    padding: 0;
+}
+
 /* контентное изображение => ограничим по ширине и высоте */
 .logo__image {
     display: block; 
@@ -125,6 +139,7 @@ p {
 }
 
 
+
 /*---------------------*/
 /*      Container      */
 /*---------------------*/
@@ -143,8 +158,9 @@ p {
 .page-content {    
     width: 880px;
     display: inline-block;
-    vertical-align: top;        
+    vertical-align: top;          
 }
+
 
 /* меню */
 
@@ -226,7 +242,226 @@ p {
 }
 
 
-  
+ 
+/* Баннер */
+
+.banner__image {       
+    display: inline-block;    
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    /*background-size: contain;*/
+    transform: translateY(-35px);
+    width: 1007px;
+    height: 299px;
+    object-fit: contain;  
+    margin-bottom:16px; 
+}
+
+
+
+
+/* Тарифы */
+
+h3 {
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
+    margin:0 auto;
+    padding: 0;
+}
+
+.tarifs__name {
+    line-height: 4.68;
+}
+
+.tarifs__block {
+    text-align: center; 
+    margin-bottom: 61px;
+}
+
+.tarifs__description, .tarifs__list-info{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.67;    
+}
+
+.tarifs__list-info {
+    line-height: 1.67;
+    margin-bottom: 35px;
+}
+
+.tarifs__list {   
+    display: inline-block;
+    width: 250px;    
+    height: 455px;
+    margin: 0 auto;
+    padding: 0;
+    border:1px solid transparent;
+}
+
+.tarifs__listitem{      
+    display: inline;
+    list-style: none;    
+}
+
+.tarifs__listitem:hover{
+    border:1px solid #e8e9ed;
+}
+
+.tarifs__listitem--hot {
+    border:1px solid #e8e9ed;
+}
+
+.tarifs__price-value{
+    font-weight: normal;
+    font-size: 54px;
+    vertical-align: middle;
+}
+
+.tarifs__item-image {  
+    display: inline-block;
+    vertical-align: top;      
+    background-color: #4b73b5;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-size: contain;*/ 
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;  
+    margin-top:43px;  
+}
+
+
+
+
+/* Новости */
+
+.lastnews {
+    margin: 0 auto;
+}
+
+.lastnews__item-image {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;      
+      
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-size: contain;*/ 
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: contain;  
+    margin-bottom:16px; 
+}
+
+.lastnews__description {    
+    width: 700px;
+    display: inline-block;
+    vertical-align: top; 
+    padding-left: 20px;         
+}
+
+.lastnews__title {    
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 42px;
+}
+
+.lastnews__list{
+    list-style: none;
+    padding: 0;
+}
+
+.lastnews__item {
+    border-bottom: 2px solid #f5f5f5;
+    height: 220px;
+    padding-top: 31px;
+}
+
+.lastnews__date{
+    font-weight: 300;
+    color: #656464;
+    font-size: 14px;
+}
+
+.lastnews__news{
+    font-weight: 300;
+    color: #221f1f;
+    line-height: 1.67;
+    font-size: 18px;
+}
+
+
+
+
+/* пагинатор */
+
+.pagination {  
+      
+}
+
+.pagination__container{
+    
+}
+
+.pagination__display {
+    color: #656464;
+    font-weight: 300;
+    font-size: 14px;    
+}
+
+.pagination__controls {
+    display: inline;
+}
+
+.pagination__prev {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.pagination__list{
+    display: inline; 
+    padding: 0;      
+}
+
+.pagination__item {
+    display:inline;
+    list-style: none;   
+    text-align: center;           
+}
+
+.pagination__item:last-child{
+    
+}
+
+.pagination__link {    
+    text-decoration: none;    
+    font-weight: bold;
+    color: black;
+    font-size: 14px;    
+}
+
+/*
+.pagination__item--active .pagination__link{ 
+    width: 25px;
+    height: 25px;
+    background-color: #4b73b5;
+    border-radius: 3px;    
+    color:white;
+}
+*/
+
+.pagination__next{
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+
 
 
 /*---------------------*/
@@ -240,7 +475,7 @@ html {
 }
 
 body {
-    margin: 0 0 77px;           /* высота футера */
+    margin: 0 0 -77px;           /* высота футера */
 }
 
 footer {
