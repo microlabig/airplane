@@ -165,6 +165,7 @@ h2 {
 /* меню */
 
 .menu__list {
+    text-align: left;
     list-style: none;
     margin: 0 auto;
     padding: 0;    
@@ -195,7 +196,7 @@ h2 {
 .menu__link:before {
     content: "";    
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
     display: inline-block;
     vertical-align: top;
     width: 23px;
@@ -287,8 +288,15 @@ h3 {
 }
 
 .tarifs__list-info {
+    text-align: left;
+    list-style: none;
     line-height: 1.67;
     margin-bottom: 35px;
+}
+
+.tarifs__item:before {
+    content: "•";
+    padding-right: 25px;
 }
 
 .tarifs__list {   
@@ -381,6 +389,10 @@ h3 {
     padding-top: 31px;
 }
 
+.lastnews__item:last-child {
+    border-bottom: none;
+}
+
 .lastnews__date{
     font-weight: 300;
     color: #656464;
@@ -400,17 +412,18 @@ h3 {
 /* пагинатор */
 
 .pagination {  
-      
+      margin-bottom: 68px;
 }
 
 .pagination__container{
-    
+    text-align: center;
 }
 
 .pagination__display {
     color: #656464;
     font-weight: 300;
-    font-size: 14px;    
+    font-size: 14px;
+    padding-right: 15px;
 }
 
 .pagination__controls {
@@ -422,6 +435,13 @@ h3 {
     color: #ccc;
 }
 
+.pagination__next{
+    text-decoration: none;
+    display: inline;
+    padding-left: 8px;
+    color: black;
+}
+
 .pagination__list{
     display: inline; 
     padding: 0;      
@@ -430,11 +450,9 @@ h3 {
 .pagination__item {
     display:inline;
     list-style: none;   
-    text-align: center;           
-}
-
-.pagination__item:last-child{
-    
+    text-align: center;
+    padding-left:5px; 
+    padding-right:5px;          
 }
 
 .pagination__link {    
@@ -444,23 +462,24 @@ h3 {
     font-size: 14px;    
 }
 
-/*
 .pagination__item--active .pagination__link{ 
+    display: inline-block;
     width: 25px;
     height: 25px;
     background-color: #4b73b5;
     border-radius: 3px;    
     color:white;
-}
-*/
-
-.pagination__next{
-    text-decoration: none;
-    display: inline;
+    
 }
 
+.pagination__item--first > .pagination__prev { /* если пользователь нажал на 1-ю страницу*/
+    color: #ccc;
+}
 
-
+.pagination__item--last > .pagination__next { /* .pagination__item--last -
+            если пользователь нажал на последнюю страницу*/
+    color:#ccc;
+}
 
 
 
