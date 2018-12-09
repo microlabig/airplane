@@ -37,7 +37,188 @@
 
 body {
     font-family: 'roboto', Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-smoothing: antialiased;
+}
+
+/*
+.wrapper{
+    overflow: hidden;
+    max-width: 1100px;
+    min-height: 100%;   
+}
+*/
+
+* {
+    box-sizing: border-box; /* позволяет значения padding и border 
+                               вычитать из ширины и длины блока */
+}
+
+p {
+    margin: 0 auto;
+}
+
+/* контентное изображение => ограничим по ширине и высоте */
+.logo__image {
+    display: block; 
+    width: 100%;  
+    height: 100%;
+    object-fit: contain;
+}
+
+/*---------------------*/
+/*       Header        */
+/*---------------------*/
+
+.header {    
+    background-color: #4b73b5; 
+    color:white;
+}
+
+.container { 
+    margin: 0 auto;
+    width: 1060px;  
+}
+
+.header .container {
+    height: 77px;
+    position:relative;
+}
+
+.contacts__phone{
+    font-size: 21px;
+    color: inherit;
+}
+
+.logo{
+    position: absolute;
+    top: 21px;
+    left: 0;
+}
+
+.logo__title{
+    display: none;
+}
+
+.contacts {
+    position: absolute;
+    top:16px;
+    right: 0;    
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
+.contacts__phone {
+    font-size: 21px;    
+    text-decoration: none;
+}
+
+.contacts__dropshedule {
+    color: rgba(255, 255, 255, 0.7); /* не применяем overflow:hidden, чтобы выпадающее меню 
+                                          тоже было непрозрачным */
+    font-size: 14px;
+    text-decoration-line: underline;    
+}
+
+
+/*---------------------*/
+/*      Container      */
+/*---------------------*/
+
+
+
+
+
+/*---------------------*/
+/*       Footer        */
+/*---------------------*/
+
+/* Прибиваем футер - начало */
+html {                          
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 77px;           /* высота футера */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 77px;               /* высота футера */                                   
+}
+/* Прибиваем футер - конец */
+
+.footer .container {
+    height: 77px;
+    position:relative;
+    margin: 0 auto;
+    width: 1060px; 
+}
+
+.footer {  
+    background-color: #4b73b5;     
+    color:white;   
+    position: relative;          
+}
+
+.footer__col {
+    font-size: 14px;
+    color: inherit;
+    position: absolute;
+}
+
+/* левый блок */
+.footer__col--left {      
+    left: 0; 
+    line-height: 1.29; 
+    margin-top: 14px;       
+}
+
+.footer__colleft-shool,.footer__colleft-autor{
+    font-weight: bold;
+    color: inherit;
+}
+
+.footer__colleft-autor {    
+    text-decoration: none;           
+}
+
+/* центральный блок */
+.footer__col--center {        
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;    
+}
+
+.logo--footer {
+    top: 20px;
+}
+
+/* правый блок */
+.footer__col--right {    
+    top: 20px;
+    right: 0;       
+}
+
+.social__info {      
+    font-weight: bold;
+    font-style: normal;   
+}
+
+.social__list {    
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social__listitem {
+    display: inline;
 }
 
