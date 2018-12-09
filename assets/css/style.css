@@ -75,6 +75,7 @@ p {
 .header {    
     background-color: #4b73b5; 
     color:white;
+    margin-bottom: 45px;
 }
 
 .container { 
@@ -128,8 +129,101 @@ p {
 /*      Container      */
 /*---------------------*/
 
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.sidebar {
+    width: 176px;
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.page-content {    
+    width: 880px;
+    display: inline-block;
+    vertical-align: top;        
+}
 
 
+/* меню */
+
+.menu__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;    
+}
+
+.menu__list li {
+    padding-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+.menu__link {
+    color: #4b73b5;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    color: black;
+}
+
+.menu__link:before {
+    content: "";    
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: top;
+    width: 23px;
+    height: 23px;
+}
+
+.menu__link--main:before {
+    background-image: url("/assets/img/main_icon.png");
+}
+.menu__link--feed:before {
+    background-image: url("/assets/img/feed-icon.png");
+}
+.menu__link--team:before {
+    background-image: url("/assets/img/team-icon.png");
+}
+
+.menu__link--main:hover:before {
+    background-image: url("/assets/img/main-icon-black.png");
+}
+.menu__link--feed:hover:before {
+    background-image: url("/assets/img/feed_icon-black.png");
+}
+.menu__link--team:hover:before {
+    background-image: url("/assets/img/team_icon-black.png");
+}
+
+.menu__item--active .menu__link--main{
+    color: black;
+}
+.menu__item--active .menu__link--main:before{
+    background-image: url("/assets/img/main-icon-black.png");
+}
+.menu__item--active .menu__link--feed{
+    color: black;
+}
+.menu__item--active .menu__link--feed:before{
+    background-image: url("/assets/img/feed_icon-black.png");
+}
+.menu__item--active .menu__link--team{
+    color: black;
+}
+.menu__item--active .menu__link--team:before{
+    background-image: url("/assets/img/team_icon-black.png");
+}
+
+
+  
 
 
 /*---------------------*/
