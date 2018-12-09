@@ -146,7 +146,6 @@ p {
     vertical-align: top;        
 }
 
-
 /* меню */
 
 .menu__list {
@@ -160,6 +159,10 @@ p {
     display: inline-block;
     vertical-align: middle;    
 }
+
+.menu__list li:last-child { 
+    padding-bottom: 0; 
+} 
 
 .menu__link {
     color: #4b73b5;
