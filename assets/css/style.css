@@ -483,9 +483,16 @@ h3 {
     background-color: white;       
 }
 
+.pagination__link:hover{
+    color: #36c;
+}
+
 .pagination__item--active {
     border-radius: 3px;
     background-color: #4b73b5;
+    color: white;
+}
+.pagination__item--active:hover .pagination__link{
     color: white;
 }
 
