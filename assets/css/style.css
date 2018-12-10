@@ -361,6 +361,8 @@ h3 {
 
 .lastnews {
     margin: 0 auto;
+    padding:0;
+    margin-bottom: 25px;
 }
 
 .lastnews__item-image {
@@ -393,7 +395,8 @@ h3 {
 
 .lastnews__list{
     list-style: none;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0;    
 }
 
 .lastnews__item {
@@ -429,9 +432,77 @@ h3 {
 }
 
 .pagination__container{
+    margin:0 auto;
+    padding: 0;
     text-align: center;
+    font-size: 14px;
+    color:black;
+    max-height: 25px;    
 }
 
+.pagination__prev, .pagination__next {
+    display:inline-block;
+    font-size: 16px;
+    color:inherit;
+}
+.pagination__prev {
+    padding-right: 8px;
+}
+
+.pagination__list {
+    display:inline-block;
+    font-size: 0px; /* Убираем боковые отступы между элементами списка */
+    margin:0 auto;
+    padding: 0;
+    transform: translateY(-1px);
+}
+
+.pagination__item {
+    font-size: 14px; /* Восстанавливаем размер шрифта */
+    font-weight: bold;
+    display:inline-block;
+    list-style: none;   
+    text-align: center;       
+    width: 25px;
+    height: 25px;
+    background-color: white;       
+}
+
+.pagination__item--active {
+    border-radius: 3px;
+    background-color: #4b73b5;
+    color: white;
+}
+
+.pagination__link {
+    text-decoration: none; 
+    color:inherit;
+}
+
+.pagination__prev{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 300;
+    color: #656464;
+}
+
+.pagination__next{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.pagination__display {
+    font-weight: 300;
+    color: #656464;
+    display: inline-block;
+    padding-right: 14px;
+}
+
+.pagination__controls{
+    display: inline-block;
+}
+
+/*
 .pagination__display {
     color: #656464;
     font-weight: 300;
@@ -463,9 +534,11 @@ h3 {
 .pagination__item {
     display:inline;
     list-style: none;   
-    text-align: center;
-    padding-left:5px; 
-    padding-right:5px;          
+    text-align: center;    
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 3px;   
 }
 
 .pagination__link {    
@@ -485,16 +558,8 @@ h3 {
     
 }
 
-.pagination__item--first > .pagination__prev { /* если пользователь нажал на 1-ю страницу*/
-    color: #ccc;
 }
-
-.pagination__item--last > .pagination__next { /* .pagination__item--last -
-            если пользователь нажал на последнюю страницу*/
-    color:#ccc;
-}
-
-
+*/
 
 /*---------------------*/
 /*       Footer        */
