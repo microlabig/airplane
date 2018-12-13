@@ -1,0 +1,85 @@
+.tarifs{
+    margin-bottom: 66px;
+}
+
+.tarifs__title{
+    margin-bottom: 44px;
+}
+
+
+.tarifs__list {    
+    font-size: 0px; /* Убираем боковые отступы между элементами списка */
+    margin:0 auto;
+    padding: 0;
+}
+.tarifs__list-item { 
+    text-align:center;   
+    font-size: 16px; /* Восстанавливаем размер шрифта */
+    display:inline-block;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    list-style: none;
+    width: 250px;
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.tarifs__list-item:last-child{
+    margin-right: 0;
+}
+
+.tarifs__list-item:hover,.tarifs__list-item--center{
+    border: 1px solid #e8e9ed;
+    border-radius: 5px;
+}
+
+.tarifs__item {
+    text-align: left;
+    list-style: none;
+}
+.tarifs__item:before {
+    content: "•";
+    padding-right: 25px;
+}
+
+.tarifs__item {
+    line-height: 1.9;
+}
+
+.tarifs__price-value{
+    font-weight: 500;
+    font-size: 50px;
+}
+.tarifs__price-value sub{
+    font-size: 35px;
+}
+
+.tarifs__item-image {  
+    display: inline-block;
+    vertical-align: top;      
+    background-color: #4b73b5;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: contain; 
+    margin-bottom: 22px; 
+}
+
+.tarifs__description, .tarifs__list-info{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.67;    
+}
+
+.tarifs__list-info {
+    text-align: left;
+    list-style: none;
+    line-height: 1.67;
+}
+
+.tarifs__description-block{
+    margin: 0 auto;
+    width: 200px; 
+}

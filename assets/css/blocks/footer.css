@@ -1,0 +1,43 @@
+/*---------------------*/
+/*       Footer        */
+/*---------------------*/
+
+.footer .container {
+    height: 77px;
+    position:relative;
+    margin: 0 auto;
+    width: 1060px; 
+}
+
+.footer {  
+    background-color: #4b73b5;     
+    color:white;   
+    position: relative;          
+}
+
+.footer__col {
+    font-size: 14px;
+    color: inherit;
+    position: absolute;
+}
+
+/* центральный блок */
+.footer__col--center {        
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;    
+}
+
+.logo--footer {
+    top: 20px;
+}
+
+/* правый блок */
+.footer__col--right { 
+    margin-top: -6px;   
+    top: 20px;
+    right: 0;       
+}
+
+
+

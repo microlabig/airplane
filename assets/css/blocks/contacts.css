@@ -1,0 +1,31 @@
+.contacts__phone{
+    font-size: 21px;
+    color: inherit;
+}
+
+.contacts {
+    position: absolute;
+    top:17px;
+    right: 0;    
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.contacts__phone {
+    font-size: 21px;    
+    text-decoration: none;
+}
+
+.contacts__dropshedule {
+    color: rgba(255, 255, 255, 0.7); /* не применяем overflow:hidden, чтобы выпадающее меню 
+                                          тоже было непрозрачным */
+    font-size: 14px;
+    text-decoration-line: underline; 
+    cursor: pointer;   
+}
+
+.contacts__dropshedule:hover {
+    color: rgba(255, 255, 255, 1);
+}

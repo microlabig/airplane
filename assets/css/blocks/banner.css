@@ -1,0 +1,11 @@
+/* Баннер */
+
+.banner {       
+    display: inline-block;    
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 100%;
+    height: 300px;
+    object-fit: contain; 
+    margin-bottom:16px;
+}

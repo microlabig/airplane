@@ -1,0 +1,21 @@
+/*---------------------*/
+/*       Header        */
+/*---------------------*/
+
+.header {    
+    background-color: #4b73b5; 
+    color:white;
+    margin-bottom: 48px;
+}
+
+.container { 
+    margin: 0 auto;
+    width: 1060px;  
+}
+
+.header .container {
+    height: 77px;
+    position:relative;
+}
+
+

@@ -1,0 +1,15 @@
+/* левый блок */
+.footer__col--left {      
+    left: 0; 
+    line-height: 1.29; 
+    margin-top: 11px;       
+}
+
+.footer__colleft-shool,.footer__colleft-autor{
+    font-weight: bold;
+    color: inherit;
+}
+
+.footer__colleft-autor {    
+    text-decoration: none;           
+}
