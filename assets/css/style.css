@@ -37,7 +37,7 @@
 
 body {
     font-family: 'roboto', Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.45;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-smoothing: antialiased;
@@ -72,6 +72,11 @@ h2 {
     font-size: 18px;
     margin:0 auto;
     padding: 0;
+}
+
+ul, li{
+    margin:0;
+    padding:0;
 }
 
 /* контентное изображение => ограничим по ширине и высоте */
@@ -272,40 +277,37 @@ h3 {
     letter-spacing: 2.6px;
     margin:0 auto;
     padding: 0;
-    padding-bottom: 11px;
-    padding-top: 4px;
+    margin-bottom: 11px;
+}
+
+.tarifs{
+    margin-bottom: 66px;
 }
 
 .tarifs__title{
     margin-bottom: 44px;
 }
-.tarifs__block {
-    height: 455px;
-    margin-bottom: 66px;
-    float: left;
-}
 
-.tarifs__list {
-    text-align:center;
+
+.tarifs__list {    
     font-size: 0px; /* Убираем боковые отступы между элементами списка */
     margin:0 auto;
     padding: 0;
 }
-.tarifs__list-item {
+.tarifs__list-item { 
+    text-align:center;   
     font-size: 16px; /* Восстанавливаем размер шрифта */
     display:inline-block;
     border: 1px solid transparent;
     border-radius: 5px;
     list-style: none;
     width: 250px;
-    height: 455px;
+    margin-right: 20px;
+    padding: 20px 0;
 }
 
-.tarifs__list-item--left{
-    margin-right:20px;
-}
-.tarifs__list-item--center{
-    margin-right:20px;
+.tarifs__list-item:last-child{
+    margin-right: 0;
 }
 
 .tarifs__list-item:hover,.tarifs__list-item--center{
@@ -343,8 +345,7 @@ h3 {
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    object-fit: contain;  
-    margin-top:41px; 
+    object-fit: contain; 
     margin-bottom: 22px; 
 }
 
@@ -358,14 +359,11 @@ h3 {
     text-align: left;
     list-style: none;
     line-height: 1.67;
-    padding-top: 3px;
-    padding-bottom: 36px;
-    padding-left: 20px;
 }
 
-.tarifs__description {
+.tarifs__description-block{
     margin: 0 auto;
-    width: 200px;
+    width: 200px; 
 }
 
 
