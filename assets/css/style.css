@@ -291,7 +291,7 @@ h3 {
     margin:0 auto;
     padding: 0;
 }
-.tarifs__listitem {
+.tarifs__list-item {
     font-size: 16px; /* Восстанавливаем размер шрифта */
     display:inline-block;
     border: 1px solid transparent;
@@ -301,14 +301,14 @@ h3 {
     height: 455px;
 }
 
-.tarifs__listitem--left{
+.tarifs__list-item--left{
     margin-right:20px;
 }
-.tarifs__listitem--center{
+.tarifs__list-item--center{
     margin-right:20px;
 }
 
-.tarifs__listitem:hover,.tarifs__listitem--center{
+.tarifs__list-item:hover,.tarifs__list-item--center{
     border: 1px solid #e8e9ed;
     border-radius: 5px;
 }
@@ -615,12 +615,12 @@ footer {
     padding-top: 3px;
 }
 
-.social__listitem {
+.social__list-item {
     display: inline; /* для размещения элементов списка в строку */
     padding-right: 7px;    
 }
 
-.social__listitem:last-child { 
+.social__list-item:last-child { 
     padding-right: 0; 
 } 
 
