@@ -4,9 +4,6 @@
 }
 
 .contacts {
-    position: absolute;
-    top:17px;
-    right: 0;    
     font-style: normal;
     text-align: right;
     font-weight: bold;

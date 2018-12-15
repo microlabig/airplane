@@ -1,8 +1,6 @@
 /* левый блок */
-.footer__col--left {      
-    left: 0; 
-    line-height: 1.29; 
-    margin-top: 11px;       
+.footer__col--left {   
+    line-height: 1.29;       
 }
 
 .footer__colleft-shool,.footer__colleft-autor{

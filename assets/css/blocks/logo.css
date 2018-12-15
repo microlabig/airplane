@@ -1,9 +1,14 @@
 .logo{
-    position: absolute;
-    top: 21px;
-    left: 0;
+    display:inline-block;
 }
 
 .logo__title{
     display: none;
+}
+
+/* контентное изображение => ограничить по ширине и высоте */
+.logo__image {
+    max-width: 120px;  
+    max-height: 36px;
+    object-fit: contain;
 }
