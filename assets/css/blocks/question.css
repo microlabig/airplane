@@ -1,0 +1,21 @@
+.question{
+    display: flex; 
+    justify-content: center;       
+    background-color: #33cc66;
+    background-image: url("../../img/pattern.png");
+    background-repeat: repeat;
+    background-position: center center;     
+}
+
+.question__block{    
+    width: 650px;    
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    padding:43px 30px;    
+}
+
+.question__request, .question__phone{
+    color: white;
+    font-weight: 900;
+}

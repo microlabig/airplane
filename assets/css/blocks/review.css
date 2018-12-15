@@ -1,0 +1,23 @@
+.review__list{
+    list-style: none;    
+}
+
+.review__list-item{
+    display: flex;
+    font-size:18px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.review__image{
+    display: inline-block;    
+    border-radius: 50%; 
+    overflow: hidden;        
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; 
+    margin-right: 20px;  
+}
+
+.review__block-description{
+    width:80%
+}

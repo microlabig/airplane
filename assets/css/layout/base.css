@@ -53,6 +53,7 @@ body {
 }
 
 time {
+    display: inline-block;
     font-weight: 300;
     color: #656464;
     font-size: 14px;
