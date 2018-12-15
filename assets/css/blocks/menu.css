@@ -40,23 +40,23 @@
 }
 
 .menu__link--main:before {
-    background-image: url("/assets/img/main_icon.png");
+    background-image: url("../../img/main_icon.png");
 }
 .menu__link--feed:before {
-    background-image: url("/assets/img/feed-icon.png");
+    background-image: url("../../img/feed-icon.png");
 }
 .menu__link--team:before {
-    background-image: url("/assets/img/team-icon.png");
+    background-image: url("../../img/team-icon.png");
 }
 
 .menu__link--main:hover:before {
-    background-image: url("/assets/img/main-icon-black.png");
+    background-image: url("../../img/main-icon-black.png");
 }
 .menu__link--feed:hover:before {
-    background-image: url("/assets/img/feed_icon-black.png");
+    background-image: url("../../img/feed_icon-black.png");
 }
 .menu__link--team:hover:before {
-    background-image: url("/assets/img/team_icon-black.png");
+    background-image: url("../../img/team_icon-black.png");
 }
 
 .menu__item--active .menu__link--main{

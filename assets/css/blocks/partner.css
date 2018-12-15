@@ -1,0 +1,18 @@
+.partners__list{    
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.parners__list-item{ 
+    height: 70px;   
+    width:250px; 
+    max-height: 100%;
+    max-width: 100%;  
+    filter: grayscale(1);
+}
+
+.parners__list-item:hover{    
+    filter: grayscale(0);
+    transition: filter .3s, -webkit-filter .3s;    
+}
