@@ -69,16 +69,18 @@ time {
 .container {
     margin: 0 auto;
     width: 1060px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sidebar {
-    width: 175px;
+    width: 12%;
     display: inline-block;
     vertical-align: top;    
 }
 
 .page-content {    
-    width: 880px;
+    width: 78%;
     display: inline-block;
     vertical-align: top;          
 }
