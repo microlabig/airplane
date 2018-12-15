@@ -6,16 +6,15 @@
     margin-bottom: 44px;
 }
 
-
 .tarifs__list {    
     font-size: 0px; /* Убираем боковые отступы между элементами списка */
-    margin:0 auto;
-    padding: 0;
+    display:flex;
+    flex-direction: row;
 }
+
 .tarifs__list-item { 
     text-align:center;   
-    font-size: 16px; /* Восстанавливаем размер шрифта */
-    display:inline-block;
+    font-size: 16px; /* Восстанавливаем размер шрифта */    
     border: 1px solid transparent;
     border-radius: 5px;
     list-style: none;
