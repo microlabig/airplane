@@ -1,15 +1,41 @@
+.partners{
+    margin-bottom: 42px;
+}
+
+.partners__title{
+    margin-bottom: 34px;
+}
+
 .partners__list{    
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
     list-style: none;
 }
 
 .parners__list-item{ 
+    display: inline-block;
+    text-align: center;
+
+    position: relative;
+
     height: 70px;   
     width:250px; 
     max-height: 100%;
     max-width: 100%;  
-    filter: grayscale(1);
+
+    filter: grayscale(1);  
+    
+    margin-bottom: 55px;
+}
+
+.partners__list-item-img{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .parners__list-item:hover{    

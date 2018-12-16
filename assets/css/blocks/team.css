@@ -1,6 +1,11 @@
 .team__list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team__title{
+    margin-bottom: 30px;
 }
 
 .team__list-item{
@@ -8,7 +13,7 @@
     text-align: center;
     width:270px;
     line-height: 21px;
-    padding: 0 10px;
+    padding: 0 5px;
     margin-bottom: 45px;
 }
 
@@ -19,7 +24,9 @@
     overflow: hidden;        
     width: 160px;
     height: 160px;
-    border-radius: 50%;   
+    border-radius: 50%;
+    
+    margin-bottom: 15px;
 }
 
 .team__firstname{
@@ -50,8 +57,14 @@
 
 }
 
-.team__profession{
+.team__name{
+    margin-bottom: 2px;
+}
+
+.team__profession{    
     color: #4b73b5;
+
+    margin-bottom: 7px;
 }
 
 .team__description{

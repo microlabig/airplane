@@ -8,7 +8,7 @@
     background-repeat: repeat;
     background-position: center center;  
 
-    margin-bottom: 58px;
+    margin-bottom: 55px;
 }
 
 .question__block{    
@@ -16,7 +16,7 @@
     font-size: 18px;
     line-height: 30px;
     color: white;
-    padding:43px 30px;    
+    padding:43px 3px;    
 }
 
 .question__request, .question__phone{
