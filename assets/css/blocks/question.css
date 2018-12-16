@@ -1,10 +1,14 @@
 .question{
     display: flex; 
-    justify-content: center;       
+    justify-content: center; 
+
     background-color: #33cc66;
+
     background-image: url("../../img/pattern.png");
     background-repeat: repeat;
-    background-position: center center;     
+    background-position: center center;  
+
+    margin-bottom: 58px;
 }
 
 .question__block{    

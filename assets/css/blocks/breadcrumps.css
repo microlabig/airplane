@@ -1,3 +1,7 @@
+.breadcrumps{
+    margin-bottom: 30px;
+}
+
 .breadcrumps__list{
     display: flex;
     flex-wrap: nowrap;

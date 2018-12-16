@@ -1,0 +1,193 @@
+.formrequest{
+    width:100%;
+    height:100%; 
+    margin-bottom:50px;   
+}
+
+.form__wrapper{
+    padding: 70px 69px;
+    background-color: #f5f5f5;
+    width:700px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.form__title{
+    font-size: 49px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.form__content{
+    width: 100%;
+    height: 100%;        
+}
+
+.form__row{
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.form__row:last-child{
+    margin-bottom:0;
+}
+
+.form__elem{
+    margin-right: 20px;
+    flex:1;    
+}
+
+.form__elem:last-child{
+    margin-right: 0;
+}
+
+.form__elem-title{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.form__elem-input{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 3px;
+    background-color: white;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__elem-input:focus{
+    border-color: #3366cc;
+}
+
+.form__elem-textarea{
+    padding-top: 10px;
+    height: 88px;
+    resize: none;
+}
+
+/* Radio style */
+
+.form__radio, .form__button{
+    flex:1;
+}
+
+.form__radio-wrap{
+    display: flex;    
+}
+
+.form__radio-label{
+    display: flex;
+    margin-right:20px;
+    align-content: center;
+}
+
+.form__radio-label:last-child{
+    margin-right:0;
+}
+
+.form__radio-input{
+    display: none;
+}
+
+.form__radio-fake{
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #c9c9c9;    
+    border-radius: 50%;
+
+    position: relative;
+    vertical-align: middle;
+
+    margin-right:5px;
+
+    transition: border 1s;
+}
+
+.form__radio-fake:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color:#3366cc;
+    
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.form__radio-input:checked + .form__radio-fake{
+    border: 1px solid #3366cc;
+}
+
+.form__radio-input:checked + .form__radio-fake:after{
+    width: 8px;
+    height: 8px;
+}
+
+/* Button */
+
+.form__button{
+    text-align: right;
+}
+
+.button{
+    display: inline-block;    
+    padding: 15px 20px;
+    background-color: #3366cc;
+    outline: none;
+    cursor: pointer;
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.4px;  
+    
+    transition: .5s;
+}
+
+.button__text{
+    display: inline;  
+    vertical-align: middle;  
+}
+
+.button__img{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    
+    background-image: url("../../img/img-button.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #3366cc;
+}
+
+.button:hover .button__img{
+    background-image: url("../../img/img-button-hover.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+
+    transition: background-image .5s;
+}
+

@@ -17,8 +17,8 @@ p {
 h1 {
     font-weight: bold;
     font-size: 49px;
-    margin:0 auto;
-    padding: 0;
+    margin:0 auto 40px;
+    padding: 0; 
 }
 
 h2 {

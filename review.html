@@ -125,6 +125,7 @@
                                     </p>
                                 </div>
                                 </li>
+                            </div>
                         </ul>
                     </section>
                     <div class="pagination">
@@ -171,9 +172,52 @@
                 </div>
             </div>
 
-            <div id="#form" class="formrequest">
-                <h1>Оставить отзыв</h1>
-            </div>
+            <section id="#form" class="formrequest">
+                <div class="form__wrapper">
+                    <div class="form__title">Оставить отзыв</div>
+                    <form action="" class="form__content">
+                        <div class="form__row">
+                            <label class="form__elem">
+                                <div class="form__elem-title">Ваше имя</div>
+                                <input type="text" class="form__elem-input" placeholder="Андрей">
+                            </label>
+                            <label class="form__elem">
+                                <div class="form__elem-title">Ссылка на профиль VK</div>
+                                <input type="text" class="form__elem-input" placeholder="vk.com/example">
+                            </label> 
+                        </div>
+                        <div class="form__row">
+                            <label class="form__elem">
+                                <div class="form__elem-title">Текст отзыва</div>
+                                <textarea class="form__elem-input form__elem-textarea" placeholder="Мне понравилось"></textarea>
+                            </label>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__radio">
+                                <div class="form__elem-title">Отображать фото в отзыве?</div>
+                                <div class="form__radio-wrap">
+                                    <label class="form__radio-label">
+                                        <input type="radio" class="form__radio-input" name="review" checked>
+                                        <div class="form__radio-fake"></div>
+                                        <div class="form__radio-text">Да</div>
+                                    </label>
+                                    <label class="form__radio-label">
+                                        <input type="radio" class="form__radio-input" name="review">
+                                        <div class="form__radio-fake"></div>
+                                        <div class="form__radio-text">Нет</div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__button">
+                                <button class="button">
+                                    <div class="button__text">Отправить</div>
+                                    <div class="button__img"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
 
             </main>
         </div>
