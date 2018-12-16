@@ -79,13 +79,13 @@ time {
 }
 
 .sidebar {
-    width: 12%;
+    width: 17%;
     display: inline-block;
     vertical-align: top;    
 }
 
 .page-content {    
-    width: 78%;
+    width: 83%;
     display: inline-block;
     vertical-align: top;          
 }

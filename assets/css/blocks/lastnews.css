@@ -1,14 +1,14 @@
 .lastnews {
     display:block;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .lastnews__description {  
-    padding-left: 13px;         
+    padding-left: 19px;         
 }
 
 .lastnews__title {  
-    margin-bottom: 54px;
+    margin-bottom: 60px;
 }
 
 .lastnews__list{
@@ -17,7 +17,7 @@
 
 .lastnews__item {
     border-bottom: 2px solid #f5f5f5;    
-    padding-bottom: 27px;
+    padding-bottom: 16px;
     margin-bottom: 27px;
     display: flex;
     align-items: center;
