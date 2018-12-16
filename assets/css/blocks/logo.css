@@ -8,6 +8,7 @@
 
 /* контентное изображение => ограничить по ширине и высоте */
 .logo__image {
+    display: inline-block;
     width: 120px;  
     height: 36px;
     max-width: 100%;

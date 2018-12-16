@@ -15,10 +15,9 @@
 }
 
 .parners__list-item{ 
-    display: inline-block;
-    text-align: center;
-
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     height: 70px;   
     width:250px; 
@@ -32,10 +31,6 @@
 
 .partners__list-item-img{
     display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
 }
 
 .parners__list-item:hover{    

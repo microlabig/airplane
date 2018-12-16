@@ -2,17 +2,17 @@ footer {
     width: 100%;                                 
 }
 
-.footer .container {
-    min-height: 77px;
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .footer {  
     background-color: #4b73b5;     
     color:white;               
+}
+
+.footer .container {
+    min-height: 77px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__col {
