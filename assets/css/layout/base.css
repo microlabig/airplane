@@ -61,7 +61,7 @@ time {
 
 .wrapper{
     overflow: hidden;    
-    min-width:1200px;
+    min-width:1060px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -73,28 +73,20 @@ time {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 1060px;
     display: flex;
     justify-content: space-between;
-    padding:0 20px;
 }
 
 .sidebar {
-    width: 30%;
+    width: 17%;
     display: inline-block;
-    vertical-align: top;   
-    margin-right:25px; 
+    vertical-align: top;    
 }
 
 .page-content {    
-    width: 70%;
+    width: 83%;
     display: inline-block;
     vertical-align: top;          
 }
 
-.block-description{
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight:bold;
-    text-align: center;
-}

@@ -1,8 +1,6 @@
 .header {    
     background-color: #4b73b5; 
     color:white;  
-    padding:0 20px;
-    margin-bottom: 27px;
 }
 
 .header .container {
@@ -10,7 +8,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap:nowrap;
-    min-height:77px;     
+    min-height:77px;
+    padding: 10px 0;       
 }
 
 .header__block {
@@ -20,4 +19,3 @@
 .header__block--align-right{
     justify-content: flex-end;
 }
-
