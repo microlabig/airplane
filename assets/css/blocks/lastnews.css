@@ -3,28 +3,30 @@
     margin-bottom: 50px;
 }
 
-.lastnews__description {  
-    margin-left: 19px;         
-}
-
 .lastnews__title {  
     margin-bottom: 60px;
 }
 
 .lastnews__list{
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
 }
 
-.lastnews__item {
-    border-bottom: 2px solid #f5f5f5;    
-    padding-bottom: 16px;
-    margin-bottom: 27px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.lastnews__item {    
+    margin-right: 25px;
+    width:275px;
+}
+
+.lastnews__item-image-container{
+ width: 100%;
+ text-align: center;
 }
 
 .lastnews__item-image-block{
+    display: inline-block;
+    text-align: center;
     border-radius: 50%;
     width: 160px;
     height: 160px;
@@ -48,7 +50,6 @@
 .lastnews__news{
     font-weight: 300;
     color: #221f1f;
-    line-height: 1.67;
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 8px;
 }

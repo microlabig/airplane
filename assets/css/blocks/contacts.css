@@ -15,14 +15,16 @@
     text-decoration: none;
 }
 
-.contacts__dropshedule {
+.contacts__dropshedule-description {
     color: rgba(255, 255, 255, 0.7); /* не применяем overflow:hidden, чтобы выпадающее меню 
                                           тоже было непрозрачным */
     font-size: 14px;
     text-decoration-line: underline; 
-    cursor: pointer;   
+    cursor: pointer; 
+    position: relative; 
 }
 
-.contacts__dropshedule:hover {
+.contacts__dropshedule-description:hover {
     color: rgba(255, 255, 255, 1);
 }
+

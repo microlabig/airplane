@@ -1,8 +1,8 @@
 .question{
     display: flex; 
     justify-content: center; 
-
-    background-color: #33cc66;
+    
+    background-color: #4b73b5;
 
     background-image: url("../../img/pattern.png");
     background-repeat: repeat;
@@ -12,10 +12,12 @@
 }
 
 .question__block{    
-    width: 650px;    
+    width: 275px;
+
     font-size: 18px;
     line-height: 30px;
     color: white;
+
     padding:43px 3px;    
 }
 
