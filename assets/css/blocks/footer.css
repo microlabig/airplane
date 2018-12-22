@@ -34,5 +34,6 @@ footer {
 /* Новый */
 
 .footer--w1200 .container{
-    width: 1200px;    
+    width: 1200px;
+    padding: 0 20px;    
 }

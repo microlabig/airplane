@@ -59,6 +59,8 @@
     border: 1px solid transparent;
     font-size: 14px;
     font-weight: 300;
+
+    transition: border-color .5s;
 }
 
 .form__elem-input:focus{
@@ -122,6 +124,8 @@
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
+
+    transition: .5s;
 }
 
 .form__radio-input:checked + .form__radio-fake{
@@ -173,8 +177,6 @@
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
-    
-    
 }
 
 .button:hover {
@@ -192,3 +194,8 @@
     transition: background-image .5s;
 }
 
+/* Новый макет */
+
+.formrequest--left .form__wrapper{
+    margin:0;
+}

@@ -23,3 +23,29 @@
     color: white;
     font-weight: 900;
 }
+
+/* Новый макет */
+
+.question--asside{
+    text-align: center;
+    background-color: #3366cc;
+    padding: 0;
+
+    font-weight: 300;
+    line-height: 30px;
+
+    margin-bottom: 30px;
+}
+
+.question--asside .question{
+    background-size: cover;
+}
+
+.question--asside .question__block{
+    padding: 30px 10px;
+}
+
+.question--asside .question__phone{
+    display: block;
+    text-decoration: none;
+}

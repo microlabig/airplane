@@ -21,6 +21,11 @@
 }
 
 /* Новый макет */
+
 .wrapper--w1200 .header{
     margin-bottom: 26px;
+}
+
+.wrapper--w1200 .header .container{
+    padding: 0 20px;
 }
