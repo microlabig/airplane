@@ -32,4 +32,10 @@
     margin-right:0;
 }
 
+/* Новый макет */
+
+.wrapper--w1200 .breadcrumps{
+    display: none;
+}
+
 

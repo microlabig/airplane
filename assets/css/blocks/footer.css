@@ -37,3 +37,7 @@ footer {
     width: 1200px;
     padding: 0 20px;    
 }
+
+.footer--w1200 .footer__col--right{
+    display: none;
+}
