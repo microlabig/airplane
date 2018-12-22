@@ -52,3 +52,41 @@
     font-size: 18px;
     padding-top: 8px;
 }
+
+/* Новый макет */
+
+.lastnews--row {
+    margin-bottom: 40px;
+}
+
+.lastnews--row .lastnews__list{
+    display: flex;
+}
+
+.lastnews--row .lastnews__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+       
+    width: 275px;
+    border-bottom: 2px solid transparent;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.lastnews--row .lastnews__item-image-block{
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.lastnews--row .lastnews__titlenews{
+    line-height: 21px;
+}
+
+.lastnews--row .lastnews__news{
+    font-size: 14px;
+    font-weight: 300;
+}
+
