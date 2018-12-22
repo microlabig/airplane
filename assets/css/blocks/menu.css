@@ -82,3 +82,13 @@
     background-image: url("/assets/img/team_icon-black.png");
 }
 
+/* Новый макет */
+
+.wrapper--w1200 .menu__item{
+    margin-right: 92px;
+    margin-bottom: 0;
+}
+
+.wrapper--w1200 .menu__item:last-child{
+    margin-right: 0;
+}

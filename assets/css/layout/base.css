@@ -90,3 +90,21 @@ time {
     vertical-align: top;          
 }
 
+/* Новый макет */
+
+.wrapper--w1200{
+    min-width:1200px;
+}
+
+.wrapper--w1200 .container{
+    width: 1200px;
+}
+
+.wrapper--w1200 .sidebar{
+    width: 25%;
+    margin-top: 0;
+}
+
+.wrapper--w1200 .page-content{
+    width: 75%;
+}

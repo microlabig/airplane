@@ -30,8 +30,7 @@
     background-position: center center;
     overflow: hidden;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
 .social__img:hover{
@@ -43,4 +42,23 @@
     text-indent: 100%;
     white-space: normal;
     overflow:hidden;
+}
+
+/* Новый макет */
+
+.social--asside {
+    color: black;
+    text-align: center;
+}
+
+.social--asside .social__list-item{
+    background-color: white;
+}
+
+.social--asside .social__img:hover{
+    background-color: #d2def3;
+}
+
+.social--asside .social__list{
+
 }
