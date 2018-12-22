@@ -103,6 +103,7 @@ time {
 .wrapper--w1200 .sidebar{
     width: 25%;
     margin-top: 0;
+    margin-right: 25px;
 }
 
 .wrapper--w1200 .page-content{

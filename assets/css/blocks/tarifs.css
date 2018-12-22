@@ -104,3 +104,42 @@ h3.tarifs__name {
     margin: 0 auto;
     width: 200px; 
 }
+
+/* Новый макет */
+
+.tarifs--asside{
+    margin-right: 0;
+    border: 1px solid #e8e9ed;
+}
+
+.tarifs--asside .tarifs__list-item{
+    padding: 0;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.tarifs--asside .tarifs__name{
+    margin-bottom: 30px;
+}
+
+.tarifs--asside .tarifs__title{    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-top:30px;
+    margin-bottom:35px;
+}
+
+.tarifs--asside .tarifs__item-image{
+    display: none;
+}
+
+.tarifs--asside .tarifs__list-item:hover{   
+    border: 1px solid transparent;
+}
+
+.tarifs--asside .tarifs__price{
+    margin-bottom:35px;
+}
