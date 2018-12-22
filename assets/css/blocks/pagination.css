@@ -46,6 +46,7 @@
 
 .pagination__link:hover{
   color: #36c;
+  transition: color .3s;
 }
 
 .pagination__item--active {

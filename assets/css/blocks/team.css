@@ -71,3 +71,9 @@
 .team__description{
     font-size: 14px;
 }
+
+/* Новый макет */
+.wrapper--w1200 .team__list-item-avatar{
+    border: 3px solid #597ebb;
+}
+
