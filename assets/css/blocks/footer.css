@@ -31,4 +31,8 @@ footer {
     width: 120px;    
 }
 
+/* Новый */
 
+.footer--w1200 .container{
+    width: 1200px;
+}
