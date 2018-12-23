@@ -110,6 +110,9 @@ h3.tarifs__name {
 .tarifs--asside{
     margin-right: 0;
     border: 1px solid #e8e9ed;
+
+    margin-top: 4px;
+    margin-bottom: 26px;
 }
 
 .tarifs--asside .tarifs__list-item{
@@ -119,7 +122,7 @@ h3.tarifs__name {
 }
 
 .tarifs--asside .tarifs__name{
-    margin-bottom: 30px;
+    margin-bottom: 19px;
 }
 
 .tarifs--asside .tarifs__title{    
@@ -128,18 +131,31 @@ h3.tarifs__name {
     font-size: 18px;
     font-weight: bold;
 
-    margin-top:30px;
-    margin-bottom:35px;
+    margin-top:24px;
+    margin-bottom:22px;
 }
 
 .tarifs--asside .tarifs__item-image{
     display: none;
 }
 
+.tarifs--asside .tarifs__list-info{
+    padding-left: 10px;
+}
+
+.tarifs--asside .tarifs__item:before{
+    content: "•";
+    padding-right: 17px;
+}
+
 .tarifs--asside .tarifs__list-item:hover{   
     border: 1px solid transparent;
 }
 
+.tarifs--asside .tarifs__list-info {
+    margin-bottom: 3px;
+}
+
 .tarifs--asside .tarifs__price{
-    margin-bottom:35px;
+    margin-bottom: 23px;
 }

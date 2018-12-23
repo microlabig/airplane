@@ -10,3 +10,8 @@
 
     margin-top: 10px;  
 }
+
+/* Новый макет */
+.wrapper--w1200 .banner{
+    margin-top: 0; 
+}

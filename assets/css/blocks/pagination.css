@@ -88,3 +88,13 @@
   transform: translateX(-11px);
 }
 
+/* Новый макет */
+
+.wrapper--w1200 .pagination{
+  margin-bottom: 46px;
+}
+
+.wrapper--w1200 .pagination__container{
+  justify-content: flex-start;
+  margin-left:197px;
+}

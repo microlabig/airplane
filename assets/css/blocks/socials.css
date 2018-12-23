@@ -67,8 +67,11 @@
 
 .social--asside {
     color: black;
+    font-size: 14px;
     text-align: center;
 }
+
+
 
 .social--asside .social__list-item{
     background-color: white;

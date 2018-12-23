@@ -98,15 +98,15 @@ time {
 
 .wrapper--w1200 .container{
     width: 1200px;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .wrapper--w1200 .sidebar{
-    width: 24%;
+    width: 23%;
     margin-top: 0;
-    margin-right: 25px;
+    margin-right: 28px;
 }
 
 .wrapper--w1200 .page-content{
-    width: 76%;
+    width: 77%;
 }

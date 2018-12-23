@@ -99,11 +99,19 @@
 
 /* Новый макет */
 
-.wrapper--w1200 .menu__item{
-    margin-right: 92px;
+.menu--row{
+    margin-bottom: 10px;
+}
+
+.menu--row .menu__item{
+    margin-right: 88px;
     margin-bottom: 0;
 }
 
-.wrapper--w1200 .menu__item:last-child{
+.menu--row .menu__link{
+    padding-left: 35px;
+}
+
+.menu--row .menu__item:last-child{
     margin-right: 0;
 }

@@ -56,11 +56,15 @@
 /* Новый макет */
 
 .lastnews--row {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
 }
 
 .lastnews--row .lastnews__list{
     display: flex;
+}
+
+.lastnews--row .lastnews__title{
+    margin-bottom: 30px;
 }
 
 .lastnews--row .lastnews__item{
@@ -74,11 +78,25 @@
 
     padding-bottom: 0;
     margin-bottom: 0;
+
+    margin-right:20px;
+}
+
+.lastnews--row .lastnews__item:last-child{
+    margin-right:0;
 }
 
 .lastnews--row .lastnews__item-image-block{
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 41px;
+}
+
+.lastnews--row time{
+    margin-bottom: 4px;
+}
+
+.lastnews--row .lastnews__description{
+    margin-left:0;
 }
 
 .lastnews--row .lastnews__titlenews{
@@ -87,6 +105,7 @@
 
 .lastnews--row .lastnews__news{
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 300;    
+    line-height: 21px;
 }
 
