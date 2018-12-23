@@ -85,7 +85,7 @@
     color: black;
 }
 .menu__item--active .menu__link--feed:before{
-    bwidth: 20px; height: 18px;
+    width: 20px; height: 18px;
     background-position: -310px -10px;
 }
 
