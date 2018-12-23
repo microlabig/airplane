@@ -2,6 +2,7 @@
 
 .banner {       
     display: inline-block;    
+    background-image:url('../../img/banner.png');
     background-repeat: no-repeat;
     background-position: bottom left;
     width: 100%;
@@ -12,6 +13,82 @@
 }
 
 /* Новый макет */
-.wrapper--w1200 .banner{
-    margin-top: 0; 
+
+/*
+.banner--animation{  
+    position: relative;
+    
+    width: 100%;
+    height: 300px;
+
+    background-image:url("../../img/airplane/AIRPLANE.png"), url("../../img/airplane/sky.png");
+    background-blend-mode: color-burn;    
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    margin-top: 0;
+}
+
+.banner--animation:after{
+    position: absolute;
+
+    content: "";
+    display: inline-block;
+
+    width: 100%;
+    height: 300px;
+
+    background-image:url("../../img/airplane/boing.png");
+    background-position: right;
+    background-repeat: no-repeat;
+
+    animation: sky 3s;
+    animation-fill-mode: forwards;
+}
+*/
+
+.banner--animation:before{ 
+    content: "";
+    display: inline-block; 
+    position: absolute;
+    
+    width: 300%;
+    height: 300px;
+
+    background-image:url("../../img/airplane/AIRPLANE.png"), url("../../img/airplane/sky.png");
+    background-blend-mode: color-burn; 
+    background-position-x: center, left;   
+    background-position-y: center, center; 
+    background-repeat: no-repeat;
+
+    animation: width100 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.banner--animation{
+    position: relative;  
+   
+    height: 300px;
+
+    overflow: hidden;
+
+    margin-top: 0;
+}
+
+.banner--animation:after{  
+    content: "";    
+    display: inline-block;
+    position: absolute;
+
+    width: 100%;
+    height: 300px;
+
+    background-image:url("../../img/airplane/boing.png");
+    background-position: right;
+    background-repeat: no-repeat;
+
+    animation: sky 3s;
+    animation-delay:1s;
+    animation-fill-mode: backwards;    
 }

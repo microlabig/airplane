@@ -57,7 +57,7 @@
 /* Новый макет */
 
 .review--w1200{
-    margin-bottom: 19px;
+    margin-bottom: 38px;
 }
 
 .review--w1200 .review__title{
@@ -71,6 +71,7 @@
 
 .review--w1200 .review__list-item:last-child{
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .review--w1200 .review__block-image{
@@ -86,3 +87,4 @@
 .review--w1200 .review__text{
     line-height: 30px;
 }
+

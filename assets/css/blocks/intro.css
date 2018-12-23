@@ -19,24 +19,24 @@
 }
 
 .intro__logo{
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 
 /* Button */
 
-.intro__button{    
+.button--intro{
     display: inline-block;    
     padding: 15px 20px;
     background-color: transparent;
     outline: none;
-    cursor: pointer;
 
     border: 1px solid #3366cc;
     border-radius: 3px;
 
     color: #3366cc;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2.4px;  
@@ -44,27 +44,29 @@
     transition: .5s;
 }
 
-.button__goto-text{
+.button--intro{
     display: inline;  
     vertical-align: middle;  
 }
 
-.button__image{
+.button--intro:after{
+    content:"";
     display: inline-block;
     vertical-align: middle;
     
     background-image: url("../../img/sprites.png"); 
     width: 15px; height: 14px;
     background-position: -166px -10px;
+
+    margin-left: 8px;
 }
 
-.intro__button:hover {
+.button--intro:hover {
     background-color: #3366cc;
     color: white;
 }
 
-.intro__button:hover .button__image{
-    width: 15px; height: 14px;
+.button--intro:hover:after{
     background-position: -201px -10px;
 }
 

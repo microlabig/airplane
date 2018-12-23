@@ -41,3 +41,7 @@ footer {
 .footer--w1200 .footer__col--right{
     display: none;
 }
+
+.footer--w1200 .footer__col-info{
+    width: 235px;
+}

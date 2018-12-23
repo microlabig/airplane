@@ -85,6 +85,9 @@
     order:10;
 }
 
+.partners--row .partners__list{
+    margin-bottom:22px;
+}
 .partners--row .partners-bingair {
-    margin-bottom:26px;
+    margin-bottom:0;
 }
