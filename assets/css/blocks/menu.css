@@ -19,13 +19,18 @@
     padding-bottom: 0; 
 } 
 
-.menu__link {    
+.menu__link {        
+    display: inline-block;
+    position: relative;
+    
     font-size: 12px;        
     color: #4b73b5;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2.4px;
     font-weight: bold;
+
+    padding-left: 41px;
 }
 
 .menu__link:hover{
@@ -33,53 +38,63 @@
 }
 
 .menu__link:before {
-    content: "";    
-    background-repeat: no-repeat;
-    background-position: left center;
-    display: inline-block;
-    vertical-align: top;
-    width: 23px;
-    height: 23px;
-    padding-right:7px;
+    content: "";  
+    display: inline-block;  
+    position: absolute;
+    background-image: url("../../img/sprites.png");
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .menu__link--main:before {
-    background-image: url("../../img/main_icon.png");
+    width: 17px; height: 18px;
+    background-position: -236px -10px;
 }
 .menu__link--feed:before {
-    background-image: url("../../img/feed-icon.png");
+    width: 20px; height: 18px;
+    background-position: -350px -10px;
 }
 .menu__link--team:before {
-    background-image: url("../../img/team-icon.png");
+    width: 23px; height: 18px;
+    background-position: -433px -10px;
 }
 
 .menu__link--main:hover:before {
-    background-image: url("../../img/main-icon-black.png");
+    width: 17px; height: 18px;
+    background-position: -273px -10px;
 }
 .menu__link--feed:hover:before {
-    background-image: url("../../img/feed_icon-black.png");
+    width: 20px; height: 18px;
+    background-position: -310px -10px;
 }
 .menu__link--team:hover:before {
-    background-image: url("../../img/team_icon-black.png");
+    width: 23px; height: 18px;
+    background-position: -390px -10px;
 }
 
 .menu__item--active .menu__link--main{
     color: black;
 }
 .menu__item--active .menu__link--main:before{
-    background-image: url("/assets/img/main-icon-black.png");
+    width: 17px; height: 18px;
+    background-position: -273px -10px;
 }
+
 .menu__item--active .menu__link--feed{
     color: black;
 }
 .menu__item--active .menu__link--feed:before{
-    background-image: url("/assets/img/feed_icon-black.png");
+    bwidth: 20px; height: 18px;
+    background-position: -310px -10px;
 }
+
 .menu__item--active .menu__link--team{
     color: black;
 }
 .menu__item--active .menu__link--team:before{
-    background-image: url("/assets/img/team_icon-black.png");
+    width: 23px; height: 18px;
+    background-position: -390px -10px;
 }
 
 /* Новый макет */

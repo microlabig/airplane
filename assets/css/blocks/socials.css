@@ -24,16 +24,33 @@
     margin-left:0;  
 }
 
-.social__img {       
+.social__img {     
     display: inline-block;
+    background-image: url('../../img/sprites.png');
     background-repeat: no-repeat;
     background-position: center center;
+    
     overflow: hidden;
-    width: 100%;
-    height: 100%;     
+    max-width: 100%;
+    max-height: 100%;     
     border-radius: 50%;
 
-    transition: background-color .3s;
+    transition: background-color .5s;
+}
+.social__img--vk {
+    background-position: -95px -4px;
+}
+.social__img--fb{
+    background-position: -3px -7px;
+}
+.social__img--google{
+    background-position: -128px -5px;
+}
+.social__img--twitter{
+    background-position: -31px -5px;
+}
+.social__img--email{
+    background-position: -63px -5px;
 }
 
 .social__img:hover{

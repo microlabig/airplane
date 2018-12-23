@@ -172,11 +172,9 @@
     display: inline-block;
     vertical-align: middle;
     
-    background-image: url("../../img/img-button.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
+    background-image: url("../../img/sprites.png");    
+    width: 15px; height: 14px;
+    background-position: -201px -10px;    
 }
 
 .button:hover {
@@ -185,13 +183,8 @@
 }
 
 .button:hover .button__img{
-    background-image: url("../../img/img-button-hover.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
-
-    transition: background-image .5s;
+    width: 15px; height: 14px;
+    background-position: -166px -10px;
 }
 
 /* Новый макет */
