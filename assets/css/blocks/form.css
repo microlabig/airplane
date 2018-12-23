@@ -189,6 +189,28 @@
 
 /* Новый макет */
 
+.formrequest--left{
+    margin-top: 59px;
+}
+
 .formrequest--left .form__wrapper{
-    margin:0;
+    padding: 35px 104px 47px 93px;
+    width: 765px;
+    margin: 0;
+}
+
+.formrequest--left .form__title{
+    margin-bottom: 9px;
+}
+
+.formrequest--left .form__elem-title{
+    margin-bottom: 5px;
+}
+
+.formrequest--left .form__row{
+    margin-bottom: 14px;
+}
+
+.formrequest--left .form__row:last-child{
+    margin-bottom: 0;
 }

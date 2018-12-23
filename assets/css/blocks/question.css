@@ -34,6 +34,7 @@
     font-weight: 300;
     line-height: 30px;
 
+    margin-top:12px;
     margin-bottom: 30px;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .question--asside .question__block{
-    padding: 30px 10px;
+    padding: 23px 10px;
 }
 
 .question--asside .question__phone{
